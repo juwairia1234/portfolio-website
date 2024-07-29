@@ -30,7 +30,7 @@ export default function Education() {
                 textAlign: "left",
                 padding: "1.5rem 2rem",
               }}
-              contentArrowStyle={{ borderRight: theme === 'light' ? "0.3rem solid #9ca3af": "0.3 rem solid rgba(255,255,255, 0.5" }}
+              contentArrowStyle={{ borderRight: theme === 'light' ? "0.4rem solid #9ca3af": "0.4 rem solid rgba(255,255,255, 0.5)" }}
               date={item.date}
               iconStyle={{ background: theme === 'light' ? "white": "rgba(255,255,255, 0.15" , fontSize: "1.5rem" }}
               icon={item.icon}
