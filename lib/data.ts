@@ -106,7 +106,6 @@ export const skillsData = [
   "MongoDB",
   "SQL",
   "Python",
-  "Java",
   "C",
   "C++",
   "Git/GitHub",
