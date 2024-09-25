@@ -8,22 +8,9 @@ import { useSectionInView } from "@/lib/hooks";
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
-  // const { ref, inView } = useInView({
-  //   threshold: 0.5, 
-  // });
-  // const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
-  // useEffect(() => {
-  //   if (inView && Date.now() - timeOfLastClick > 1000) {
-  //     setActiveSection("Projects");
-  //   }
-  // }, [inView, setActiveSection, timeOfLastClick]);
 
   return (
-    <section
-      ref={ref}
-      id="projects"
-      className="scroll-mt-28 mb-28"
-    >
+    <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>My projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
