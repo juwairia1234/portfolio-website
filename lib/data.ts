@@ -67,13 +67,15 @@ export const projectsData = [
       "Developed an AI-driven educational platform using OpenAI’s Assistant API that generates interactive quizzes, flashcards, and contains document querying features.",
     tags: ["React", "Next.js", "MongoDB", "Prisma", "Tailwind", "TypeScript"],
     imageUrl: notewizImg,
+    link: "https://note-wiz-website.vercel.app/"
   },
   {
     title: "Peekabyte",
     description:
       "Collaborated on backend development, implementing steganography to hide data within images. This project secured second prize in a hackathon.",
-    tags: ["JavaScript","Android Studio", "S3 Buckets", "Steganography"],
+    tags: ["JavaScript", "Android Studio", "JWT", "Steganography"],
     imageUrl: peekabyteImg,
+    link: "https://github.com/juwairia1234/Peekabyte"
   },
   {
     title: "Full-Stack E-Commerce Platform",
@@ -81,6 +83,7 @@ export const projectsData = [
       "Developed a comprehensive, feature-rich e-commerce platform designed for an optimal shopping experience with features like product management, real-time ordertracking, and secure payments.",
     tags: ["React", "Express", "MongoDB", "Node.js"],
     imageUrl: ECommerceImg,
+    link: "https://foreverbuy.in/"
   },
   {
     title: "JB-Media",
@@ -88,8 +91,10 @@ export const projectsData = [
       "Created a responsive YouTube clone mimicking core YouTube features. Integrated YouTube API for dynamic video fetching, recommendations, and search functionality and implemented custom video player interface with standard YouTube controls.",
     tags: ["HTML", "CSS", "JavaScript", "YouTube API"],
     imageUrl: JBImg,
+    link: "https://youtube-clone-inky-rho.vercel.app/"
   },
 ] as const;
+
 
 export const skillsData = [
   "HTML",
