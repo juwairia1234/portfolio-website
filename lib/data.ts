@@ -1,10 +1,10 @@
 import React from "react";
 import { LuGraduationCap, LuSchool } from "react-icons/lu";
 import { BiSolidSchool } from "react-icons/bi";
-import traveladvisorImg from "@/public/traveladvisorImg.png";
+import ECommerceImg from "@/public/ECommerce.png";
 import peekabyteImg from "@/public/peekabyteImg.png";
 import notewizImg from "@/public/notewizImg.png";
-import attendancesystemImg from "@/public/attendancesystemImg.png";
+import JBImg from "@/public/Youtube.png";
 
 export const links = [
   {
@@ -38,7 +38,7 @@ export const educationData = [
     title: "B.E. in Information Technology",
     location: "Muffakham Jah College of Engineering & Technology, Hyderabad, India",
     description:
-      "Overall C.G.P.A: 8.0",
+      "Overall G.P.A: 3.4/4",
     icon: React.createElement(LuGraduationCap),
     date: "2020 - 2024",
   },
@@ -64,7 +64,7 @@ export const projectsData = [
   {
     title: "NoteWiz",
     description:
-      "Developed an AI-driven educational platform using OpenAI’s Assistant API to generate interactive quizzes, flashcards, and a chat with document feature.",
+      "Developed an AI-driven educational platform using OpenAI’s Assistant API that generates interactive quizzes, flashcards, and contains document querying features.",
     tags: ["React", "Next.js", "MongoDB", "Prisma", "Tailwind", "TypeScript"],
     imageUrl: notewizImg,
   },
@@ -76,18 +76,18 @@ export const projectsData = [
     imageUrl: peekabyteImg,
   },
   {
-    title: "Travel Advisor",
+    title: "Full-Stack E-Commerce Platform",
     description:
-      "Developed a travel companion app with geolocation and fetching details about restaurants, hotels, and attractions.",
-    tags: ["React", "RapidAPI", "Google Maps API", "Travel Advisor API", "Open Weather Map API"],
-    imageUrl: traveladvisorImg,
+      "Developed a comprehensive, feature-rich e-commerce platform designed for an optimal shopping experience with features like product management, real-time ordertracking, and secure payments.",
+    tags: ["React", "Express", "MongoDB", "Node.js"],
+    imageUrl: ECommerceImg,
   },
   {
-    title: "Attendance System App",
+    title: "JB-Media",
     description:
-      "Created a Python-based attendance management app through facial recognition. Utilized Redis as the database backend and integrated Jupyter for data analysis.",
-    tags: ["Python", "Pandas", "Matplotlib", "openCV", "Redis", "Jupyter"],
-    imageUrl: attendancesystemImg,
+      "Created a responsive YouTube clone mimicking core YouTube features. Integrated YouTube API for dynamic video fetching, recommendations, and search functionality and implemented custom video player interface with standard YouTube controls.",
+    tags: ["HTML", "CSS", "JavaScript", "YouTube API"],
+    imageUrl: JBImg,
   },
 ] as const;
 
@@ -105,7 +105,6 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "SQL",
-  "Python",
   "C",
   "C++",
   "Git/GitHub",

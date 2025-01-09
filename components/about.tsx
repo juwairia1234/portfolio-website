@@ -30,18 +30,14 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        As a final-year engineering student in{" "}
+        As a graduate with a Bachelor's degree in{" "}
         <span className="font-medium">Information Technology</span>, I decided to follow my passion for programming. I enrolled in a coding course and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">What I love most about programming</span> is the problem-solving aspect. I <span className="underline">relish</span> the moment when I finally crack a challenging problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        <span className="italic">What excites me most about programming</span> is the problem-solving aspect. I <span className="underline">relish</span> the moment when I finally crack a challenging problem. My core stack consists of{" "}
+        <span className="font-medium">React, Next.js, Node.js, and MongoDB</span>. I am also familiar with TypeScript and Prisma, and I am always looking to
+        learn new technologies. Currently, I am seeking a{" "}
         <span className="font-medium">full-time position</span> as a web/software
         developer.
       </p>
